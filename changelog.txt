@@ -1,0 +1,14 @@
+
+Teacher Tools Light version 1.0 -
+
+Teacher Tools Light is created. It is a clone of the 1.03 update and is highly optimized and more 
+functional. It skips all asking and just takes commands which can be found in the documentation or 
+if you use tt--h.
+
+New Features -
+
+Optimized code and removed unnecessary comments (including unnecessary commented code).
+
+Upcoming Features - 
+
+Make the program end manually with a command from the user.

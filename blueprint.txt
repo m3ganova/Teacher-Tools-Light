@@ -1,0 +1,27 @@
+
+VERSION 1.01 -
+
+Major Goals - 
+
+!Add a new tool that is a calculator. [PUSH TO VERSION 1.02 - 1.03]. 
+--Make the program end manually.
+
+Minor Goals -
+
+--Remove the bloated and unnecessary "Opening tool..." and other wait moments.
+--Add more space between the end of a tool and the command entering area to improve readabilty.
+
+VERSION 1.02 -
+
+Major Goals - 
+Try to make everything a while true loop.
+
+Optimize the entire thing more (eg. while true loop).
+
+Bug Fixes - 
+
+Fix the tt--x having to be entered twice at times. I have no idea what causes this.
+
+m3ganova NOTE:
+
+I don't know if I want to implement the calculator in this version.
