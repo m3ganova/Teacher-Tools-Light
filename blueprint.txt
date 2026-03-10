@@ -21,6 +21,7 @@ Optimize the entire thing more (eg. while true loop).
 Bug Fixes - 
 
 Fix the tt--x having to be entered twice at times. I have no idea what causes this.
+Fix the version "up to date" notification being buggy.
 
 m3ganova NOTE:
 
