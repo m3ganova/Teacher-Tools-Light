@@ -1,0 +1,66 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+// System Variables
+
+
+float version = 1.02;
+char command[] = "example";
+int status = 0;
+int *stat = &status;
+// Functions
+
+void enterCommand();
+
+void markingTests(){
+    float totalMarks;
+    float missedMarks;
+    float scoredMarks;
+    // Pointers
+    float *tM = &totalMarks;
+    float *mM = &missedMarks;
+    // float *sM = &scoredMarks;
+    // double testt = 3.4; DEBUG
+    // The actual asking
+    printf("Enter the marks total: ");
+    scanf("%f", tM);
+    printf("Enter total missed marks: ");
+    scanf("%f", mM);
+    scoredMarks = (((totalMarks - missedMarks)/totalMarks)* 100);
+    printf("The student has scored %.0f out of %.0f and has scored %.2f percent.\n", totalMarks - missedMarks, totalMarks, scoredMarks);
+
+}
+
+
+void allCommands(){
+    printf("\nAll Commands:  \n\n tt--v / --version:View Teacher Tools version.\n tt--h / --help: View all commands.\n tt--x / --exit: Close the program.\n\nTools:\n\n --gg / grade :  Grade Generator -Outputs a letter depending on the students percentage grade.\n --mk / mark : Marking Tests - Marks a test and outputs the marks earned and percentage grade.  \n --calc / calculator : Calculator -Calculates your equation.  \n");
+}
+
+void enterCommand()
+{
+    char com[] = "example";
+    char *input = com;
+
+    scanf("%s",com);
+    if (strcmp(input, "gg") == 0) {
+        status = 1;
+    } else if (strcmp(input, "help")){
+        status = 2;
+    }
+    printf("%s\n", com);
+}
+
+
+int main(){
+    printf("Welcome to Teacher Tools!\nEnter a command or use --help for a list of all commands.\n");
+    allCommands();
+    while (status == 0){
+    enterCommand();
+    }
+    while (status == 1){
+        markingTests();
+    }
+    while (status == 2){
+        allCommands();
+    }
+}
