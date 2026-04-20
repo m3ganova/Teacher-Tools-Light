@@ -6,8 +6,8 @@
 #define ANSI_RED     "\x1b[31m"
 #define ANSI_GREEN   "\x1b[32m"
 #define ANSI_RESET   "\x1b[0m"
-#define version 1.02
 
+float version = 1.02;
 char command[] = "example";
 int status = 1;
 int *stat = &status;
@@ -160,21 +160,16 @@ int main(int argc, const char* argv[]){
         } else if (status == 2){
             markingTests();
         } else if (status == 3){
-            gradeGen();
-        }
-          else if (status == 4){
             calculator();
         }
-        else if (status == 5){
+          else if (status == 4){
             allCommands();
-        }
-         else if (status == 0){
+        } else if (status == 0){
             printf("The program will terminate shortly.\n");
             exit(0);
         }
         else {
-            printf(ANSI_RED "An error has occured.\n" ANSI_RESET );
-            return -1;
+            break;
         }
 
         }

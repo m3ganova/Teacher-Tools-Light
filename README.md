@@ -1,19 +1,19 @@
-# Teacher Tools Light 
+# TeacherTools
 
 ## Overview   
 
-This version of Teacher Tools is much more optimized and more complex with its own commands. This is a clone of the 1.03 version of the original Teacher Tools.
+Originally called Teacher Tools Light, TeacherTools is a software that allows teachers to be as efficient as possible with handy tools.
 <br>
 
 ## Commands  
 
 ### All Commands:  
 
-tt--v / --version:View Teacher Tools version.  
+--v / version: View Teacher Tools version.  
 
-tt--h / --help: View all commands.  
+--h / help: View all commands.  
 
-tt--x / --exit: Close the program.
+--q / quit: Quit the program.
 <br>
 
 ### Tools:
@@ -26,9 +26,11 @@ tt--x / --exit: Close the program.
 <br>
 ## Reading the blueprint
 
-Dash (-) before a point: Cleanly seperate the goals I want to achieve.  
+Dash (-) before a point: The goals I want to achieve.  
 
-Double dashes (--) before a point: Cleanly identify my achieved goals.  
+Double dashes (--) before a point: My achieved goals.  
 
 Exclamation mark (!) before a point: Will push to further releases.  
+
+Double exclamations (!!) before a point: Will not add at all.  
 
