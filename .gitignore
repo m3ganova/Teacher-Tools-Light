@@ -4,4 +4,6 @@ test*
 xaa
 calc*
 *.bak
+*~
+~*
 # all the binaries

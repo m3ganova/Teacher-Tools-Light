@@ -1,21 +1,21 @@
 
 Teacher Tools Light version 1.0 -
 
-Teacher Tools Light is created. It is a clone of the 1.03 update and is highly optimized and more 
-functional. It skips all asking and just takes commands which can be found in the documentation or 
+Teacher Tools Light is created. It is a clone of the 1.03 update and is highly optimized and more
+functional. It skips all asking and just takes commands which can be found in the documentation or
 if you use tt--h.
 
 New Features -
 
 Optimized code and removed unnecessary comments (including unnecessary commented code).
 
-Upcoming Features - 
+Upcoming Features -
 
 Make the program end manually with a command from the user.
 
 Teacher Tools Light version 1.01 -
 
-New Features - 
+New Features -
 
 Removed all the extra prompts and made it immediately ask for a command.
 Program now ends manually with the tt--x command, however, it may bug out and you will have to repeat
@@ -24,14 +24,26 @@ Removed other unnecessary things, might have not removed all of the bloat howeve
 Improved visibility a tad bit.
 Fixed the README.md being unorganized.
 
-Teacher Tools Light version 1.02 - 
+Teacher Tools Light version 1.02 -
 
-New Features - 
+New Features -
 
 Added a calculator. Use --calc or calculator to access it.
 Changed some commands to be easier to write. Also added commands on top of existing commands. Example:
 tool--mk -> --mk / mark.
 
-Bug Fixes - 
+Bug Fixes -
 
 Fixed some minor things.
+
+TeacherTools version 1.03 -
+
+New Features -
+
+Successfully rewrote the entire program in C.
+Renamed the project to TeacherTools.
+Changed how commands work. Now, instead of directly calling a function, the program changes the status code which then calls
+the function. This has squashed all bugs related to recursion.
+Changed some commands. Now, instead of putting "--" before the long commands you enter them as is [example: --help -> help].
+Made a Makefile for easy compiling.
+Updated README.

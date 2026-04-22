@@ -39,13 +39,19 @@ VERSION 1.03 -
 
 Major Goals -
 
-- Rewrite almost the whole program in C
-- Make a special command that makes the tool repeat until a specified command
-- Rewrite the gradeGen to make it based on a range and not the way it works right now
+--Rewrite the whole program in C
+!Make a special command that makes the tool repeat until a the program is quitted
+!Rewrite the gradeGen to make it based on a range and not the way it works right now
 Minor Goals -
-- Make red output for error messages (I should learn about how to use the preproccesor)
-- Update the README
+--Make red output for error messages # I should learn about how to use the preproccesor
+--Update the README
 !Add comments explaining things in the code
+!Make a buffer that stores previously written commands which can be brought up by using the UP arrow key
+Minor Goals -
+
+
+
 Bug Fixes -
 
+--Fix the recursion issue.
 !!Make the version say it is the latest version only on the latest version.
