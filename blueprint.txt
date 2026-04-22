@@ -1,9 +1,9 @@
 
 VERSION 1.01 -
 
-Major Goals - 
+Major Goals -
 
-!Add a new tool that is a calculator. [PUSH TO VERSION 1.02 - 1.03]. 
+!Add a new tool that is a calculator. [PUSH TO VERSION 1.02 - 1.03].
 --Make the program end manually.
 
 Minor Goals -
@@ -13,32 +13,45 @@ Minor Goals -
 
 VERSION 1.02 -
 
-Major Goals - 
+Major Goals -
 !Try to make everything a while true loop.
 --Add a calculator.
 --Optimize the entire thing more and make some commands simpler.
 
-Bug Fixes - 
+Bug Fixes -
 
 !Fix the tt--x having to be entered twice at times. I think this is caused by my recursion.
---Fix the version "up to date" notification being buggy. This was being caused by me accidentally 
-putting one equal sign instead of two (changing the variable's value vs actually comparing it 
+--Fix the version "up to date" notification being buggy. This was being caused by me accidentally
+putting one equal sign instead of two (changing the variable's value vs actually comparing it
 and checking it).
 --Fix some small things that get under my skin (example is forgetting a '\n').
 --Fix the version number. (Now that I come to think of it, making the program say: you are updated
-to the latest version every version is ludicrous. For now, I will comment out the "latest version" 
+to the latest version every version is ludicrous. For now, I will comment out the "latest version"
 message.)
 
 m3ganova NOTE:
 
 I don't know if I want to implement the calculator in this version. I will, however, consider it.
-I am adding this line of text as a test so ignore it please. 
+I am adding this line of text as a test so ignore it please.
 Future me: I added the calculator lol. Also, my journey with C so far has been painful.
 
-VERSION 1.03 - 
+VERSION 1.03 -
 
-Major Goals - 
+Major Goals -
 
-Bug Fixes - 
+--Rewrite the whole program in C
+!Make a special command that makes the tool repeat until a the program is quitted
+!Rewrite the gradeGen to make it based on a range and not the way it works right now
+Minor Goals -
+--Make red output for error messages # I should learn about how to use the preproccesor
+--Update the README
+!Add comments explaining things in the code
+!Make a buffer that stores previously written commands which can be brought up by using the UP arrow key
+Minor Goals -
 
-Make the version say it is the latest version only on the latest version.
+
+
+Bug Fixes -
+
+--Fix the recursion issue.
+!!Make the version say it is the latest version only on the latest version.
